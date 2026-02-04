@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Comando para ligar o app
-CMD ["node", "index.js"]
+CMD ["node", "server.js"]
