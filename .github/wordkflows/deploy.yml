@@ -1,0 +1,7 @@
+meu-projeto/
+├── .github/             <-- (Pasta oculta, começa com ponto)
+│   └── workflows/       <-- (Pasta dentro da .github)
+│       └── deploy.yml   <-- (Seu arquivo de configuração)
+├── index.js
+├── Dockerfile
+└── package.json
