@@ -2,7 +2,8 @@ name: Build e Push Docker Hub
 
 on:
   push:
-    branches: [ main ]
+    tags:
+      - 'v*' # O robô só trabalha se você criar uma tag começando com "v" (ex: v1.0.1)
 
 jobs:
   build:
