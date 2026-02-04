@@ -23,4 +23,4 @@ jobs:
         with:
           push: true
           # Aqui você define o nome da imagem: usuario/nome-da-imagem
-          tags: ${{ secrets.DOCKER_USERNAME }}/scanbr-test:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/scanbr-test:v1.0.0.1
